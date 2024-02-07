@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"streetsidesoftware.code-spell-checker",
+		"oouo-diogo-perdigao.docthis",
+		"usernamehw.errorlens",
+		"eamodio.gitlens",
+		"oderwat.indent-rainbow",
+		"ms-vsliveshare.vsliveshare",
+		"gruntfuggly.todo-tree",
+		"chakrounanas.turbo-console-log",
+		"rioukkevin.vscode-git-commit",
+		"figma.figma-vscode-extension"
+	]
+}

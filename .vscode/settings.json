@@ -1,0 +1,267 @@
+{
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+	"cSpell.words": [
+		"autodocs",
+		"biomejs",
+		"commitlint",
+		"medactis",
+		"nestjs",
+		"preinstall"
+	],
+	"files.exclude": {
+		"**/.next": true,
+		"**/node_modules": true,
+		"**/.git": true
+	},
+	"search.exclude": {
+		"**/.git": true,
+		"**/node_modules": true,
+		"**/next": true
+	},
+	"todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/dist", "**/next"],
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]",
+		"TODO-APP"
+	],
+	"vscodeGitCommit.template": ["{icon}-{type}({scope}): {message}"],
+	"vscodeGitCommit.variables": {
+		"iconOptions": [
+			{ "label": "🚑", "detail": "Critical hotfix." },
+			{ "label": "🐛", "detail": "Fixing a bug." },
+			{ "label": "🎉", "detail": "Initial (NEW) commit." },
+			{ "label": "🚧", "detail": "Work in progress." },
+			{ "label": "🌱", "detail": "Adding new, experimental features." },
+			{ "label": "✨", "detail": "Introducing new features." },
+
+			{ "label": "💡", "detail": "Documenting source code." },
+			{ "label": "📚", "detail": "Updating documentation." },
+
+			{ "label": "✅", "detail": "Updating tests." },
+			{ "label": "🧪", "detail": "Adding tests for experimental features." },
+
+			{
+				"label": "💩",
+				"detail": "Writing bad code that needs to be improved."
+			},
+			{ "label": "👌", "detail": "Updating code due to code review changes." },
+			{ "label": "🔥", "detail": "Removing code or files." },
+			{ "label": "🧹", "detail": "Cleaning up code or files." },
+			{
+				"label": "🔄",
+				"detail": "Updating code for compatibility with the latest framework or library version."
+			},
+			{
+				"label": "🤓",
+				"detail": "Updating code comments or adding developer notes."
+			},
+
+			{ "label": "🔒", "detail": "Fixing security issues." },
+
+			{ "label": "🤡", "detail": "Mocking things." },
+			{ "label": "💥", "detail": "Introducing breaking changes." },
+			{ "label": "⬆️", "detail": "Upgrading dependencies." },
+			{
+				"label": "🌐",
+				"detail": "Making changes related to internationalization and localization."
+			},
+			{ "label": "✏️", "detail": "Fixing typos." },
+			{ "label": "🔊", "detail": "Adding logs." },
+			{ "label": "🔇", "detail": "Removing logs." },
+			{ "label": "🎨", "detail": "Improving structure / format of the code." },
+			{ "label": "♻️", "detail": "Refactoring code logic." },
+			{ "label": "👷", "detail": "Adding CI build system." },
+			{ "label": "🚀", "detail": "Deploying stuff." },
+			{
+				"label": "🏷️",
+				"detail": "Adding or updating types (Flow, TypeScript)."
+			},
+			{ "label": "🗃", "detail": "Performing database related changes." },
+			{ "label": "💄", "detail": "Updating the UI and style files." },
+			{ "label": "🔀", "detail": "Merging branches." },
+			{ "label": "📦", "detail": "Updating compiled files or packages." },
+			{ "label": "🙈", "detail": "Adding or updating a .gitignore file" },
+
+			{ "label": "🛠️", "detail": "Performing general maintenance tasks." },
+
+			{ "label": "📈", "detail": "Adding analytics or tracking code." },
+			{
+				"label": "🤖",
+				"detail": "Introducing or updating automation scripts."
+			},
+
+			{ "label": "🚢", "detail": "Shipping new features or changes." },
+			{ "label": "🎛️", "detail": "Configuring settings or options." },
+			{ "label": "🌈", "detail": "Adding or updating themes." },
+			{ "label": "🧳", "detail": "Packing changes into a release." },
+
+			{ "label": "🎭", "detail": "Adding or updating tests for edge cases." },
+			{ "label": "👓", "detail": "Reviewing code for potential improvements." },
+			{ "label": "📌", "detail": "Pin dependencies to specific versions." },
+
+			{
+				"label": "🌍",
+				"detail": "Making changes to support multiple languages."
+			},
+
+			{ "label": "🎊", "detail": "Celebrating achievements or milestones." },
+			{
+				"label": "🔗",
+				"detail": "Adding or updating links in documentation or code."
+			},
+			{
+				"label": "🎁",
+				"detail": "Adding or updating gifts (easter eggs, hidden features)."
+			},
+
+			{ "label": "🧊", "detail": "Optimizing for performance or efficiency." },
+
+			{ "label": "🎶", "detail": "Adding or updating audio files." },
+
+			{ "label": "🚛", "detail": "Making changes related to data migrations." },
+
+			{
+				"label": "📜",
+				"detail": "Adding or updating legal or license-related information."
+			},
+
+			{
+				"label": "🌐",
+				"detail": "Making changes to support a global audience."
+			},
+			{
+				"label": "🎻",
+				"detail": "Improving the overall code structure or architecture."
+			}
+		],
+
+		"typeOptions": [
+			{ "label": "feat", "detail": "A new feature." },
+			{ "label": "fix", "detail": "A bug fix." },
+			{
+				"label": "build",
+				"detail": "Changes that affect the build system or external dependencies."
+			},
+			{
+				"label": "chore",
+				"detail": "Routine tasks, maintenance, or general chores."
+			},
+			{
+				"label": "ci",
+				"detail": "Changes to the Continuous Integration (CI) configuration."
+			},
+			{ "label": "docs", "detail": "Documentation changes." },
+			{
+				"label": "style",
+				"detail": "Code style changes (e.g., formatting, semi-colons)."
+			},
+			{
+				"label": "refactor",
+				"detail": "Code refactor without changing its external behavior."
+			},
+			{ "label": "perf", "detail": "Code changes that improve performance." },
+			{ "label": "test", "detail": "Adding or modifying tests." },
+			{ "label": "revert", "detail": "Reverting a previous commit." },
+			{ "label": "maintenance", "detail": "Routine maintenance tasks." },
+			{ "label": "analytics", "detail": "Adding or modifying analytics code." },
+			{
+				"label": "automation",
+				"detail": "Introducing or updating automation scripts."
+			},
+			{ "label": "config", "detail": "Configuration changes." },
+			{ "label": "design", "detail": "Changes related to design or UI." },
+			{ "label": "experimental", "detail": "Adding experimental features." },
+			{
+				"label": "internationalization",
+				"detail": "Making changes for internationalization and localization."
+			},
+			{
+				"label": "link",
+				"detail": "Adding or updating links in documentation or code."
+			},
+			{ "label": "maintenance", "detail": "General maintenance tasks." },
+			{
+				"label": "optimization",
+				"detail": "Optimizing for performance or efficiency."
+			},
+			{ "label": "release", "detail": "Packing changes into a release." },
+			{ "label": "security", "detail": "Fixing security issues." },
+			{ "label": "theme", "detail": "Adding or updating themes." },
+			{ "label": "translation", "detail": "Adding or modifying translations." },
+			{
+				"label": "ui",
+				"detail": "Improving the user interface or user experience."
+			},
+			{ "label": "upgrade", "detail": "Upgrading dependencies." },
+			{
+				"label": "test-experimental",
+				"detail": "Adding tests for experimental features."
+			}
+		],
+		"scope": [
+			{
+				"label": "api"
+			},
+			{
+				"label": "parser"
+			},
+			{
+				"label": "lang"
+			},
+			{
+				"label": "ui"
+			},
+			{
+				"label": "config"
+			},
+			{
+				"label": "test"
+			},
+			{
+				"label": "docs"
+			},
+			{
+				"label": "chore"
+			},
+			{
+				"label": "auth"
+			},
+			{
+				"label": "db"
+			},
+			{
+				"label": "logging"
+			},
+			{
+				"label": "security"
+			},
+			{
+				"label": "performance"
+			},
+			{
+				"label": "deploy"
+			},
+			{
+				"label": "infra"
+			},
+			{
+				"label": "build"
+			},
+			{
+				"label": "dependencies"
+			},
+			{
+				"label": "release"
+			},
+			{
+				"label": "migration"
+			}
+		]
+	}
+}
