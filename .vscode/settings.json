@@ -30,7 +30,7 @@
 		"[x]",
 		"TODO-APP"
 	],
-	"vscodeGitCommit.template": ["{icon}-{type}({scope}): {message}"],
+	"vscodeGitCommit.template": ["{icon} - {type}({scope}): {message}"],
 	"vscodeGitCommit.variables": {
 		"iconOptions": [
 			{ "label": "🚑", "detail": "Critical hotfix." },
@@ -138,6 +138,14 @@
 			{
 				"label": "🎻",
 				"detail": "Improving the overall code structure or architecture."
+			},
+			{
+				"label": "🐳",
+				"detail": "Adding or updating docker file"
+			},
+			{
+				"label": "🔧",
+				"detail": "Adding or updating configuration files"
 			}
 		],
 
