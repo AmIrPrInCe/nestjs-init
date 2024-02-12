@@ -3,7 +3,7 @@ FROM node:lts-alpine AS build
 WORKDIR /app
 COPY ./package.json /app/
 RUN  pnpm ci --only=production --ignore-scripts
-COPY . .
+COPY . /app
 RUN pnpm run build
 
 
